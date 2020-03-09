@@ -1,0 +1,18 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    &--align--top{
+        justify-content: flex-start;
+    } 
+
+}
+
+.section__title {
+    font-size: 72px;
+    color: $yellow;
+    margin-bottom: 50px;
+    @include gagalin()
+}
