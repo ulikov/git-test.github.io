@@ -1,9 +1,7 @@
+@import  "./colors.scss";
+
 html, body{
     background-color: #ffffff;
 }
 
-//components
-@import  "./css/section.scss"
-
-//colors
-$yellow: #f9b43b;
+@import  "./section.scss";
